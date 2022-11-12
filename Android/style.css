@@ -191,4 +191,12 @@ div#final {
 .bold {
     font-weight: bold;
     color: white;
+    text-decoration: none;
+}
+a.bold {
+    text-decoration: none;
+}
+a.bold:hover{
+    color: var(--cor2);
+    transition-duration: .5s;
 }
