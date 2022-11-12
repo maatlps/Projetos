@@ -1,0 +1,62 @@
+@charset "UTC-8";
+
+@font-face {
+    font-family:Passion;
+    src: url(fontes/PassionOne-Bold.ttf) format(truetype);
+    font-family: Sriracha;
+    src: url(fontes/Sriracha-Regular.ttf) format(truetype);
+    font-family: PassionBold;
+    src: url(fontes/PassionOne-Black.ttf) format(truetype);
+    font-family: PassionRegular;
+    src: url(fontes/PassionOne-Regular.ttf) format(truetype);
+}
+
+:root {
+    --fonte1:"Passion";
+    --fonte2: "Sriracha";
+    --fonte3: "PassionBold";
+    --fonte4: "PassionRegular";
+}
+
+* {
+    margin: 0px;
+    line-height: 1.5em;
+    width: 100%;
+}
+
+header { 
+    background-color: black;
+    padding: 50px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 4em;
+    font-family: var(--fonte4);
+    font-weight: bold;
+    color: white;
+}
+
+header h3 {
+    color: rgba(255, 255, 255, 0.593);
+}
+
+header > h3 > a {
+    text-decoration: none;
+    color: white;
+}
+
+header a:hover {
+    transition-duration: 0.5s;
+    color: rgba(118, 183, 240, 0.707);
+    text-decoration: underline;
+}
+
+main {
+    width: 600px;
+    height: 400px;
+    margin: auto;
+    max-width: 100%;
+    min-width: ;
+}
