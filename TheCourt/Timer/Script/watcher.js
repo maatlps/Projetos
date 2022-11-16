@@ -33,9 +33,8 @@ function logar (){
     var senha = document.getElementById ('senha').value;
 
     if(login == "joji" && senha == "270321"){
-        alert('Sucesso');
-        location.href = 'home.html';
+        alert('Seu tempo acabou');
     } else{
-        alert('Agora você tem menos chances');
+        alert('Seu tempo acabou');
     }
 }

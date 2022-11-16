@@ -9,7 +9,7 @@ header{
 .countdown {
     text-align: center;
     margin: auto;
-    color: #5C7373;
+    color: red;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 3em;
     font-weight: bolder;
@@ -18,7 +18,7 @@ header{
 }
 
 .aviso{
-    color: rgba(255, 255, 255, 0.142);
+    color: rgba(241, 7, 7, 0.586);
     font-size: 1.5em;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     margin: 0%;
