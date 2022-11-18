@@ -1,8 +1,9 @@
 @charset "UTC-8";
 
 @font-face {
-    font-family:Passion;
-    src: url(fontes/PassionOne-Bold.ttf) format(truetype);
+    font-family: Passion;
+    src: url(fontes/PassionOne-Bold.ttf)
+    format(truetype);
     font-family: Sriracha;
     src: url(fontes/Sriracha-Regular.ttf) format(truetype);
     font-family: PassionBold;
@@ -11,9 +12,11 @@
     src: url(fontes/PassionOne-Regular.ttf) format(truetype);
 }
 
+@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap');
+
 :root {
     --fonte1:"Passion";
-    --fonte2: "Sriracha";
+    --fonte2: "Sriracha", cursive;
     --fonte3: "PassionBold";
     --fonte4: "PassionRegular";
 }
@@ -21,7 +24,11 @@
 * {
     margin: 0px;
     line-height: 1.5em;
-    width: 100%;
+    padding: 0px;
+}
+
+body{
+    height: 100vh;
 }
 
 header { 
@@ -32,7 +39,8 @@ header {
 }
 
 header h1 {
-    font-size: 4em;
+    font-size: 10vw;
+    font-variant: small-caps;
     font-family: var(--fonte4);
     font-weight: bold;
     color: white;
@@ -53,10 +61,46 @@ header a:hover {
     text-decoration: underline;
 }
 
-main {
-    width: 600px;
-    height: 400px;
-    margin: auto;
-    max-width: 100%;
-    min-width: ;
+section {
+    font-family: var(--fonte2);
+    font-size: 3.5vw;
+    line-height: 2em;
+    background-color: white;
+    padding: 10vh 0px 10vh 30px;
+}
+
+section.inside {
+    display: inline-block;
+    font-weight: 2vw;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.509);
+    position: relative;
+    padding: 0px 0px 0px 5px;
+    top: 50px;
+    left: 30px;
+} 
+
+section.inside2 {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.509);
+    position: relative;
+    padding: 0px 0px 0px 5px;
+    top: 50px;
+    left: 30px;
+} 
+
+div.back1 {
+    background-image: url(Imagens/background001.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+}
+
+div.back2 {
+    background-image: url(Imagens/background002.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
 }
