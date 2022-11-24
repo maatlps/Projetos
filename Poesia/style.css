@@ -28,7 +28,7 @@
 }
 
 body{
-    height: 100vh;
+    height:97vh ;
 }
 
 header { 
@@ -71,16 +71,23 @@ section {
 
 section.inside {
     display: inline-block;
-    font-weight: 2vw;
+    font-weight: 3vw;
     color: white;
     background-color: rgba(0, 0, 0, 0.509);
     position: relative;
-    padding: 0px 0px 0px 5px;
+    padding: 5px;
     top: 50px;
     left: 30px;
+    
 } 
 
+section > p {
+    line-height: 1.5em;
+    font-size: 3.1vw;
+}
+
 section.inside2 {
+    display: inline-block;
     color: white;
     background-color: rgba(0, 0, 0, 0.509);
     position: relative;
@@ -94,7 +101,9 @@ div.back1 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 80vh;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.544);
 }
 
 div.back2 {
@@ -102,5 +111,7 @@ div.back2 {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     height: 80vh;
+    box-shadow: inset 6px 6px 13px rgba(0, 0, 0, 0.544);
 }
