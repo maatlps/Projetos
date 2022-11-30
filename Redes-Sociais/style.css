@@ -28,30 +28,27 @@ iframe#tela {
     top: 12.3vh;
     left: 3.4vh;
     height: 72vh;
-    width: 41vh;
+    width: 40.6vh;
 
 }
 
 img { 
     border-radius: 50%;
-    padding: 10px;
+    margin: 10px;
     width: 50px;
     height: 50px;
-
+    box-sizing: border-box;
+    box-shadow: 2px 2px 6px rgba(0, 0, 0, 0.629);
 }
 
 nav {
-    width: 80px;
-    height: 400px;
-    position: relative;
     top: 2em;
-    display: grid;
+    text-align: right;
 }
 
 img:hover {
-     box-shadow: 50px black;
-     transition: 0.5s;
-     width: 60px;
-     height: 60px;
-
+    border: 3px solid rgba(255, 255, 255, 0.638);
+    transition: 0.5s;
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.600);
 }
